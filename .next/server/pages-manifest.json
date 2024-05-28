@@ -3,9 +3,7 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/gallery": "pages/gallery.js",
-  "/offers": "pages/offers.js",
-  "/room": "pages/room.js",
-  "/membership": "pages/membership.js",
-  "/blogs": "pages/blogs.js",
-  "/blogs/[blogId]": "pages/blogs/[blogId].js"
+  "/api/roomData": "pages/api/roomData.js",
+  "/": "pages/index.js",
+  "/api/serviceData": "pages/api/serviceData.js"
 }

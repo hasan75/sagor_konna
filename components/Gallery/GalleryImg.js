@@ -5,7 +5,10 @@ const GalleryImg = ({ imgData }) => {
         <>
             <div className={`${galleryStyles.gallery}`} >
                 {imgData.map((item, i) => (
-                    <div className={`${galleryStyles.pics}`} key={i}>
+                    <div
+                        className={`${galleryStyles.pics}`}
+                        key={i}
+                    >
                         <Image src={item.galleryImg} alt="sagor konna resort" preview />
                     </div>
                 ))}
