@@ -1,192 +1,25 @@
 "use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 548;
-exports.ids = [548];
+exports.id = "pages/api/roomData";
+exports.ids = ["pages/api/roomData"];
 exports.modules = {
 
-/***/ 4000:
+/***/ "(api)/./pages/api/roomData.js":
+/*!*******************************!*\
+  !*** ./pages/api/roomData.js ***!
+  \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ handler)
-/* harmony export */ });
-const data = [
-    {
-        "id": 1,
-        "title": "See View",
-        "img": "/images/Room/demo_room_04.jpg",
-        "status": "Popular",
-        "type": "Guest",
-        "time": "night",
-        "category": "Economic Room",
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente qui esse pariatur fugit animi dolorum...",
-        "price": "4200.0",
-        "count": "5",
-        "feet": "70",
-        "roomImages": [
-            "/images/Room/demo_room_04.jpg",
-            "/images/Room/room_one_01.jpg",
-            "/images/Room/room_one_02.jpg",
-            "/images/Room/room_one_03.jpg",
-            "/images/Room/room_one_04.jpg",
-            "/images/Room/room_one_05.jpg",
-            "/images/Room/room_one_06.jpg",
-            "/images/Room/room_one_07.jpg", 
-        ],
-        "similarRoom": [
-            {
-                "id": 2,
-                "title": "See View",
-                "img": "/images/Room/demo_room_03.jpg",
-                "status": "Popular",
-                "type": "Guest",
-                "category": "Standard Room",
-                "airCondition": "line_style",
-                "breakfast": "free_breakfast",
-                "time": "night",
-                "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente qui esse pariatur fugit animi dolorum...",
-                "price": "1600.0",
-                "count": "3",
-                "feet": "55",
-                "roomImages": [
-                    "/images/Room/demo_room_03.jpg",
-                    "/images/Room/room_one_01.jpg",
-                    "/images/Room/room_one_02.jpg",
-                    "/images/Room/room_one_03.jpg",
-                    "/images/Room/room_one_04.jpg",
-                    "/images/Room/room_one_05.jpg",
-                    "/images/Room/room_one_06.jpg",
-                    "/images/Room/room_one_07.jpg", 
-                ]
-            },
-            {
-                "id": 3,
-                "title": "Nature view",
-                "img": "/images/Room/demo_room_02.jpg",
-                "type": "Guest",
-                "time": "night",
-                "category": "Economic Room",
-                "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente qui esse pariatur fugit animi dolorum...",
-                "price": "2200.0",
-                "count": "4",
-                "feet": "56",
-                "roomImages": [
-                    "/images/Room/demo_room_02.jpg",
-                    "/images/Room/room_one_01.jpg",
-                    "/images/Room/room_one_02.jpg",
-                    "/images/Room/room_one_03.jpg",
-                    "/images/Room/room_one_04.jpg",
-                    "/images/Room/room_one_05.jpg",
-                    "/images/Room/room_one_06.jpg",
-                    "/images/Room/room_one_07.jpg", 
-                ]
-            },
-            {
-                "id": 4,
-                "title": "See View",
-                "img": "/images/Room/demo_room_01.jpg",
-                "type": "Guest",
-                "time": "night",
-                "category": "Standard Room",
-                "airCondition": "line_style",
-                "breakfast": "free_breakfast",
-                "status": "Popular",
-                "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente qui esse pariatur fugit animi dolorum...",
-                "price": "3500.0",
-                "count": "2",
-                "feet": "66",
-                "roomImages": [
-                    "/images/Room/demo_room_01.jpg",
-                    "/images/Room/room_one_01.jpg",
-                    "/images/Room/room_one_02.jpg",
-                    "/images/Room/room_one_03.jpg",
-                    "/images/Room/room_one_04.jpg",
-                    "/images/Room/room_one_05.jpg",
-                    "/images/Room/room_one_06.jpg",
-                    "/images/Room/room_one_07.jpg", 
-                ]
-            }
-        ]
-    },
-    {
-        "id": 2,
-        "title": "See View",
-        "img": "/images/Room/demo_room_03.jpg",
-        "status": "Popular",
-        "type": "Guest",
-        "category": "Standard Room",
-        "airCondition": "line_style",
-        "breakfast": "free_breakfast",
-        "time": "night",
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente qui esse pariatur fugit animi dolorum...",
-        "price": "1600.0",
-        "count": "3",
-        "feet": "55",
-        "roomImages": [
-            "/images/Room/demo_room_03.jpg",
-            "/images/Room/room_one_01.jpg",
-            "/images/Room/room_one_02.jpg",
-            "/images/Room/room_one_03.jpg",
-            "/images/Room/room_one_04.jpg",
-            "/images/Room/room_one_05.jpg",
-            "/images/Room/room_one_06.jpg",
-            "/images/Room/room_one_07.jpg", 
-        ]
-    },
-    {
-        "id": 3,
-        "title": "Nature view",
-        "img": "/images/Room/demo_room_02.jpg",
-        "type": "Guest",
-        "time": "night",
-        "category": "Economic Room",
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente qui esse pariatur fugit animi dolorum...",
-        "price": "2200.0",
-        "count": "4",
-        "feet": "56",
-        "roomImages": [
-            "/images/Room/demo_room_02.jpg",
-            "/images/Room/room_one_01.jpg",
-            "/images/Room/room_one_02.jpg",
-            "/images/Room/room_one_03.jpg",
-            "/images/Room/room_one_04.jpg",
-            "/images/Room/room_one_05.jpg",
-            "/images/Room/room_one_06.jpg",
-            "/images/Room/room_one_07.jpg", 
-        ]
-    },
-    {
-        "id": 4,
-        "title": "See View",
-        "img": "/images/Room/demo_room_01.jpg",
-        "type": "Guest",
-        "time": "night",
-        "category": "Standard Room",
-        "airCondition": "line_style",
-        "breakfast": "free_breakfast",
-        "status": "Popular",
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente qui esse pariatur fugit animi dolorum...",
-        "price": "3500.0",
-        "count": "2",
-        "feet": "66",
-        "roomImages": [
-            "/images/Room/demo_room_01.jpg",
-            "/images/Room/room_one_01.jpg",
-            "/images/Room/room_one_02.jpg",
-            "/images/Room/room_one_03.jpg",
-            "/images/Room/room_one_04.jpg",
-            "/images/Room/room_one_05.jpg",
-            "/images/Room/room_one_06.jpg",
-            "/images/Room/room_one_07.jpg", 
-        ]
-    }
-];
-function handler(req, res) {
-    res.status(200).json(data);
-}
-
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ handler)\n/* harmony export */ });\nconst data = [\n    {\n        \"id\": 1,\n        \"title\": \"See View\",\n        \"img\": \"/images/Room/demo_room_04.jpg\",\n        \"status\": \"Popular\",\n        \"type\": \"Guest\",\n        \"time\": \"night\",\n        \"category\": \"Economic Room\",\n        \"description\": \"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente qui esse pariatur fugit animi dolorum...\",\n        \"price\": \"4200.0\",\n        \"count\": \"5\",\n        \"feet\": \"70\",\n        \"roomImages\": [\n            \"/images/Room/demo_room_04.jpg\",\n            \"/images/Room/room_one_01.jpg\",\n            \"/images/Room/room_one_02.jpg\",\n            \"/images/Room/room_one_03.jpg\",\n            \"/images/Room/room_one_04.jpg\",\n            \"/images/Room/room_one_05.jpg\",\n            \"/images/Room/room_one_06.jpg\",\n            \"/images/Room/room_one_07.jpg\", \n        ],\n        \"similarRoom\": [\n            {\n                \"id\": 2,\n                \"title\": \"See View\",\n                \"img\": \"/images/Room/demo_room_03.jpg\",\n                \"status\": \"Popular\",\n                \"type\": \"Guest\",\n                \"category\": \"Standard Room\",\n                \"airCondition\": \"line_style\",\n                \"breakfast\": \"free_breakfast\",\n                \"time\": \"night\",\n                \"description\": \"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente qui esse pariatur fugit animi dolorum...\",\n                \"price\": \"1600.0\",\n                \"count\": \"3\",\n                \"feet\": \"55\",\n                \"roomImages\": [\n                    \"/images/Room/demo_room_03.jpg\",\n                    \"/images/Room/room_one_01.jpg\",\n                    \"/images/Room/room_one_02.jpg\",\n                    \"/images/Room/room_one_03.jpg\",\n                    \"/images/Room/room_one_04.jpg\",\n                    \"/images/Room/room_one_05.jpg\",\n                    \"/images/Room/room_one_06.jpg\",\n                    \"/images/Room/room_one_07.jpg\", \n                ]\n            },\n            {\n                \"id\": 3,\n                \"title\": \"Nature view\",\n                \"img\": \"/images/Room/demo_room_02.jpg\",\n                \"type\": \"Guest\",\n                \"time\": \"night\",\n                \"category\": \"Economic Room\",\n                \"description\": \"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente qui esse pariatur fugit animi dolorum...\",\n                \"price\": \"2200.0\",\n                \"count\": \"4\",\n                \"feet\": \"56\",\n                \"roomImages\": [\n                    \"/images/Room/demo_room_02.jpg\",\n                    \"/images/Room/room_one_01.jpg\",\n                    \"/images/Room/room_one_02.jpg\",\n                    \"/images/Room/room_one_03.jpg\",\n                    \"/images/Room/room_one_04.jpg\",\n                    \"/images/Room/room_one_05.jpg\",\n                    \"/images/Room/room_one_06.jpg\",\n                    \"/images/Room/room_one_07.jpg\", \n                ]\n            },\n            {\n                \"id\": 4,\n                \"title\": \"See View\",\n                \"img\": \"/images/Room/demo_room_01.jpg\",\n                \"type\": \"Guest\",\n                \"time\": \"night\",\n                \"category\": \"Standard Room\",\n                \"airCondition\": \"line_style\",\n                \"breakfast\": \"free_breakfast\",\n                \"status\": \"Popular\",\n                \"description\": \"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente qui esse pariatur fugit animi dolorum...\",\n                \"price\": \"3500.0\",\n                \"count\": \"2\",\n                \"feet\": \"66\",\n                \"roomImages\": [\n                    \"/images/Room/demo_room_01.jpg\",\n                    \"/images/Room/room_one_01.jpg\",\n                    \"/images/Room/room_one_02.jpg\",\n                    \"/images/Room/room_one_03.jpg\",\n                    \"/images/Room/room_one_04.jpg\",\n                    \"/images/Room/room_one_05.jpg\",\n                    \"/images/Room/room_one_06.jpg\",\n                    \"/images/Room/room_one_07.jpg\", \n                ]\n            }\n        ]\n    },\n    {\n        \"id\": 2,\n        \"title\": \"See View\",\n        \"img\": \"/images/Room/demo_room_03.jpg\",\n        \"status\": \"Popular\",\n        \"type\": \"Guest\",\n        \"category\": \"Standard Room\",\n        \"airCondition\": \"line_style\",\n        \"breakfast\": \"free_breakfast\",\n        \"time\": \"night\",\n        \"description\": \"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente qui esse pariatur fugit animi dolorum...\",\n        \"price\": \"1600.0\",\n        \"count\": \"3\",\n        \"feet\": \"55\",\n        \"roomImages\": [\n            \"/images/Room/demo_room_03.jpg\",\n            \"/images/Room/room_one_01.jpg\",\n            \"/images/Room/room_one_02.jpg\",\n            \"/images/Room/room_one_03.jpg\",\n            \"/images/Room/room_one_04.jpg\",\n            \"/images/Room/room_one_05.jpg\",\n            \"/images/Room/room_one_06.jpg\",\n            \"/images/Room/room_one_07.jpg\", \n        ]\n    },\n    {\n        \"id\": 3,\n        \"title\": \"Nature view\",\n        \"img\": \"/images/Room/demo_room_02.jpg\",\n        \"type\": \"Guest\",\n        \"time\": \"night\",\n        \"category\": \"Economic Room\",\n        \"description\": \"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente qui esse pariatur fugit animi dolorum...\",\n        \"price\": \"2200.0\",\n        \"count\": \"4\",\n        \"feet\": \"56\",\n        \"roomImages\": [\n            \"/images/Room/demo_room_02.jpg\",\n            \"/images/Room/room_one_01.jpg\",\n            \"/images/Room/room_one_02.jpg\",\n            \"/images/Room/room_one_03.jpg\",\n            \"/images/Room/room_one_04.jpg\",\n            \"/images/Room/room_one_05.jpg\",\n            \"/images/Room/room_one_06.jpg\",\n            \"/images/Room/room_one_07.jpg\", \n        ]\n    },\n    {\n        \"id\": 4,\n        \"title\": \"See View\",\n        \"img\": \"/images/Room/demo_room_01.jpg\",\n        \"type\": \"Guest\",\n        \"time\": \"night\",\n        \"category\": \"Standard Room\",\n        \"airCondition\": \"line_style\",\n        \"breakfast\": \"free_breakfast\",\n        \"status\": \"Popular\",\n        \"description\": \"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente qui esse pariatur fugit animi dolorum...\",\n        \"price\": \"3500.0\",\n        \"count\": \"2\",\n        \"feet\": \"66\",\n        \"roomImages\": [\n            \"/images/Room/demo_room_01.jpg\",\n            \"/images/Room/room_one_01.jpg\",\n            \"/images/Room/room_one_02.jpg\",\n            \"/images/Room/room_one_03.jpg\",\n            \"/images/Room/room_one_04.jpg\",\n            \"/images/Room/room_one_05.jpg\",\n            \"/images/Room/room_one_06.jpg\",\n            \"/images/Room/room_one_07.jpg\", \n        ]\n    }\n];\nfunction handler(req, res) {\n    res.status(200).json(data);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,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LEVBQUUsR0FBRztRQUNaLE1BQU0sRUFBRSxJQUFJO1FBQ1osWUFBWSxFQUFFO1lBQ1YsK0JBQStCO1lBQy9CLDhCQUE4QjtZQUU5Qiw4QkFBOEI7WUFDOUIsOEJBQThCO1lBQzlCLDhCQUE4QjtZQUM5Qiw4QkFBOEI7WUFDOUIsOEJBQThCO1lBQzlCLDhCQUE4QjtTQUNqQztLQUNKO0NBQ0o7QUFDYyxTQUFTQyxPQUFPLENBQUNDLEdBQUcsRUFBRUMsR0FBRyxFQUFFO0lBQ3RDQSxHQUFHLENBQUNDLE1BQU0sQ0FBQyxHQUFHLENBQUMsQ0FBQ0MsSUFBSSxDQUFDTCxJQUFJLENBQUM7QUFDOUIsQ0FBQyIsInNvdXJjZXMiOlsid2VicGFjazovL3NhZ29yX2tvbm5hX3Jlc29ydF93ZWJzaXRlLy4vcGFnZXMvYXBpL3Jvb21EYXRhLmpzPzE5OTciXSwic291cmNlc0NvbnRlbnQiOlsiY29uc3QgZGF0YSA9IFtcbiAgICB7XG4gICAgICAgIFwiaWRcIjogMSxcbiAgICAgICAgXCJ0aXRsZVwiOiBcIlNlZSBWaWV3XCIsXG4gICAgICAgIFwiaW1nXCI6IFwiL2ltYWdlcy9Sb29tL2RlbW9fcm9vbV8wNC5qcGdcIixcbiAgICAgICAgXCJzdGF0dXNcIjogXCJQb3B1bGFyXCIsXG4gICAgICAgIFwidHlwZVwiOiBcIkd1ZXN0XCIsXG4gICAgICAgIFwidGltZVwiOiBcIm5pZ2h0XCIsXG4gICAgICAgIFwiY2F0ZWdvcnlcIjogXCJFY29ub21pYyBSb29tXCIsXG4gICAgICAgIFwiZGVzY3JpcHRpb25cIjogXCJMb3JlbSBpcHN1bSwgZG9sb3Igc2l0IGFtZXQgY29uc2VjdGV0dXIgYWRpcGlzaWNpbmcgZWxpdC4gU2FwaWVudGUgcXVpIGVzc2UgcGFyaWF0dXIgZnVnaXQgYW5pbWkgZG9sb3J1bS4uLlwiLFxuICAgICAgICBcInByaWNlXCI6IFwiNDIwMC4wXCIsXG4gICAgICAgIFwiY291bnRcIjogXCI1XCIsXG4gICAgICAgIFwiZmVldFwiOiBcIjcwXCIsXG4gICAgICAgIFwicm9vbUltYWdlc1wiOiBbXG4gICAgICAgICAgICBcIi9pbWFnZXMvUm9vbS9kZW1vX3Jvb21fMDQuanBnXCIsXG4gICAgICAgICAgICBcIi9pbWFnZXMvUm9vbS9yb29tX29uZV8wMS5qcGdcIlxuICAgICAgICAgICAgLFxuICAgICAgICAgICAgXCIvaW1hZ2VzL1Jvb20vcm9vbV9vbmVfMDIuanBnXCIsXG4gICAgICAgICAgICBcIi9pbWFnZXMvUm9vbS9yb29tX29uZV8wMy5qcGdcIixcbiAgICAgICAgICAgIFwiL2ltYWdlcy9Sb29tL3Jvb21fb25lXzA0LmpwZ1wiLFxuICAgICAgICAgICAgXCIvaW1hZ2VzL1Jvb20vcm9vbV9vbmVfMDUuanBnXCIsXG4gICAgICAgICAgICBcIi9pbWFnZXMvUm9vbS9yb29tX29uZV8wNi5qcGdcIixcbiAgICAgICAgICAgIFwiL2ltYWdlcy9Sb29tL3Jvb21fb25lXzA3LmpwZ1wiLFxuICAgICAgICBdLFxuICAgICAgICBcInNpbWlsYXJSb29tXCI6IFtcbiAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICBcImlkXCI6IDIsXG4gICAgICAgICAgICAgICAgXCJ0aXRsZVwiOiBcIlNlZSBWaWV3XCIsXG4gICAgICAgICAgICAgICAgXCJpbWdcIjogXCIvaW1hZ2VzL1Jvb20vZGVtb19yb29tXzAzLmpwZ1wiLFxuICAgICAgICAgICAgICAgIFwic3RhdHVzXCI6IFwiUG9wdWxhclwiLFxuICAgICAgICAgICAgICAgIFwidHlwZVwiOiBcIkd1ZXN0XCIsXG4gICAgICAgICAgICAgICAgXCJjYXRlZ29yeVwiOiBcIlN0YW5kYXJkIFJvb21cIixcbiAgICAgICAgICAgICAgICBcImFpckNvbmRpdGlvblwiOiBcImxpbmVfc3R5bGVcIixcbiAgICAgICAgICAgICAgICBcImJyZWFrZmFzdFwiOiBcImZyZWVfYnJlYWtmYXN0XCIsXG4gICAgICAgICAgICAgICAgXCJ0aW1lXCI6IFwibmlnaHRcIixcbiAgICAgICAgICAgICAgICBcImRlc2NyaXB0aW9uXCI6IFwiTG9yZW0gaXBzdW0sIGRvbG9yIHNpdCBhbWV0IGNvbnNlY3RldHVyIGFkaXBpc2ljaW5nIGVsaXQuIFNhcGllbnRlIHF1aSBlc3NlIHBhcmlhdHVyIGZ1Z2l0IGFuaW1pIGRvbG9ydW0uLi5cIixcbiAgICAgICAgICAgICAgICBcInByaWNlXCI6IFwiMTYwMC4wXCIsXG4gICAgICAgICAgICAgICAgXCJjb3VudFwiOiBcIjNcIixcbiAgICAgICAgICAgICAgICBcImZlZXRcIjogXCI1NVwiLFxuICAgICAgICAgICAgICAgIFwicm9vbUltYWdlc1wiOiBbXG4gICAgICAgICAgICAgICAgICAgIFwiL2ltYWdlcy9Sb29tL2RlbW9fcm9vbV8wMy5qcGdcIixcbiAgICAgICAgICAgICAgICAgICAgXCIvaW1hZ2VzL1Jvb20vcm9vbV9vbmVfMDEuanBnXCJcbiAgICAgICAgICAgICAgICAgICAgLFxuICAgICAgICAgICAgICAgICAgICBcIi9pbWFnZXMvUm9vbS9yb29tX29uZV8wMi5qcGdcIixcbiAgICAgICAgICAgICAgICAgICAgXCIvaW1hZ2VzL1Jvb20vcm9vbV9vbmVfMDMuanBnXCIsXG4gICAgICAgICAgICAgICAgICAgIFwiL2ltYWdlcy9Sb29tL3Jvb21fb25lXzA0LmpwZ1wiLFxuICAgICAgICAgICAgICAgICAgICBcIi9pbWFnZXMvUm9vbS9yb29tX29uZV8wNS5qcGdcIixcbiAgICAgICAgICAgICAgICAgICAgXCIvaW1hZ2VzL1Jvb20vcm9vbV9vbmVfMDYuanBnXCIsXG4gICAgICAgICAgICAgICAgICAgIFwiL2ltYWdlcy9Sb29tL3Jvb21fb25lXzA3LmpwZ1wiLFxuICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICB9LFxuICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgIFwiaWRcIjogMyxcbiAgICAgICAgICAgICAgICBcInRpdGxlXCI6IFwiTmF0dXJlIHZpZXdcIixcbiAgICAgICAgICAgICAgICBcImltZ1wiOiBcIi9pbWFnZXMvUm9vbS9kZW1vX3Jvb21fMDIuanBnXCIsXG4gICAgICAgICAgICAgICAgXCJ0eXBlXCI6IFwiR3Vlc3RcIixcbiAgICAgICAgICAgICAgICBcInRpbWVcIjogXCJuaWdodFwiLFxuICAgICAgICAgICAgICAgIFwiY2F0ZWdvcnlcIjogXCJFY29ub21pYyBSb29tXCIsXG4gICAgICAgICAgICAgICAgXCJkZXNjcmlwdGlvblwiOiBcIkxvcmVtIGlwc3VtLCBkb2xvciBzaXQgYW1ldCBjb25zZWN0ZXR1ciBhZGlwaXNpY2luZyBlbGl0LiBTYXBpZW50ZSBxdWkgZXNzZSBwYXJpYXR1ciBmdWdpdCBhbmltaSBkb2xvcnVtLi4uXCIsXG4gICAgICAgICAgICAgICAgXCJwcmljZVwiOiBcIjIyMDAuMFwiLFxuICAgICAgICAgICAgICAgIFwiY291bnRcIjogXCI0XCIsXG4gICAgICAgICAgICAgICAgXCJmZWV0XCI6IFwiNTZcIixcbiAgICAgICAgICAgICAgICBcInJvb21JbWFnZXNcIjogW1xuICAgICAgICAgICAgICAgICAgICBcIi9pbWFnZXMvUm9vbS9kZW1vX3Jvb21fMDIuanBnXCIsXG4gICAgICAgICAgICAgICAgICAgIFwiL2ltYWdlcy9Sb29tL3Jvb21fb25lXzAxLmpwZ1wiXG4gICAgICAgICAgICAgICAgICAgICxcbiAgICAgICAgICAgICAgICAgICAgXCIvaW1hZ2VzL1Jvb20vcm9vbV9vbmVfMDIuanBnXCIsXG4gICAgICAgICAgICAgICAgICAgIFwiL2ltYWdlcy9Sb29tL3Jvb21fb25lXzAzLmpwZ1wiLFxuICAgICAgICAgICAgICAgICAgICBcIi9pbWFnZXMvUm9vbS9yb29tX29uZV8wNC5qcGdcIixcbiAgICAgICAgICAgICAgICAgICAgXCIvaW1hZ2VzL1Jvb20vcm9vbV9vbmVfMDUuanBnXCIsXG4gICAgICAgICAgICAgICAgICAgIFwiL2ltYWdlcy9Sb29tL3Jvb21fb25lXzA2LmpwZ1wiLFxuICAgICAgICAgICAgICAgICAgICBcIi9pbWFnZXMvUm9vbS9yb29tX29uZV8wNy5qcGdcIixcbiAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgfSxcbiAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICBcImlkXCI6IDQsXG4gICAgICAgICAgICAgICAgXCJ0aXRsZVwiOiBcIlNlZSBWaWV3XCIsXG4gICAgICAgICAgICAgICAgXCJpbWdcIjogXCIvaW1hZ2VzL1Jvb20vZGVtb19yb29tXzAxLmpwZ1wiLFxuICAgICAgICAgICAgICAgIFwidHlwZVwiOiBcIkd1ZXN0XCIsXG4gICAgICAgICAgICAgICAgXCJ0aW1lXCI6IFwibmlnaHRcIixcbiAgICAgICAgICAgICAgICBcImNhdGVnb3J5XCI6IFwiU3RhbmRhcmQgUm9vbVwiLFxuICAgICAgICAgICAgICAgIFwiYWlyQ29uZGl0aW9uXCI6IFwibGluZV9zdHlsZVwiLFxuICAgICAgICAgICAgICAgIFwiYnJlYWtmYXN0XCI6IFwiZnJlZV9icmVha2Zhc3RcIixcbiAgICAgICAgICAgICAgICBcInN0YXR1c1wiOiBcIlBvcHVsYXJcIixcbiAgICAgICAgICAgICAgICBcImRlc2NyaXB0aW9uXCI6IFwiTG9yZW0gaXBzdW0sIGRvbG9yIHNpdCBhbWV0IGNvbnNlY3RldHVyIGFkaXBpc2ljaW5nIGVsaXQuIFNhcGllbnRlIHF1aSBlc3NlIHBhcmlhdHVyIGZ1Z2l0IGFuaW1pIGRvbG9ydW0uLi5cIixcbiAgICAgICAgICAgICAgICBcInByaWNlXCI6IFwiMzUwMC4wXCIsXG4gICAgICAgICAgICAgICAgXCJjb3VudFwiOiBcIjJcIixcbiAgICAgICAgICAgICAgICBcImZlZXRcIjogXCI2NlwiLFxuICAgICAgICAgICAgICAgIFwicm9vbUltYWdlc1wiOiBbXG4gICAgICAgICAgICAgICAgICAgIFwiL2ltYWdlcy9Sb29tL2RlbW9fcm9vbV8wMS5qcGdcIixcbiAgICAgICAgICAgICAgICAgICAgXCIvaW1hZ2VzL1Jvb20vcm9vbV9vbmVfMDEuanBnXCJcbiAgICAgICAgICAgICAgICAgICAgLFxuICAgICAgICAgICAgICAgICAgICBcIi9pbWFnZXMvUm9vbS9yb29tX29uZV8wMi5qcGdcIixcbiAgICAgICAgICAgICAgICAgICAgXCIvaW1hZ2VzL1Jvb20vcm9vbV9vbmVfMDMuanBnXCIsXG4gICAgICAgICAgICAgICAgICAgIFwiL2ltYWdlcy9Sb29tL3Jvb21fb25lXzA0LmpwZ1wiLFxuICAgICAgICAgICAgICAgICAgICBcIi9pbWFnZXMvUm9vbS9yb29tX29uZV8wNS5qcGdcIixcbiAgICAgICAgICAgICAgICAgICAgXCIvaW1hZ2VzL1Jvb20vcm9vbV9vbmVfMDYuanBnXCIsXG4gICAgICAgICAgICAgICAgICAgIFwiL2ltYWdlcy9Sb29tL3Jvb21fb25lXzA3LmpwZ1wiLFxuICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICB9XG4gICAgICAgIF1cbiAgICB9LFxuICAgIHtcbiAgICAgICAgXCJpZFwiOiAyLFxuICAgICAgICBcInRpdGxlXCI6IFwiU2VlIFZpZXdcIixcbiAgICAgICAgXCJpbWdcIjogXCIvaW1hZ2VzL1Jvb20vZGVtb19yb29tXzAzLmpwZ1wiLFxuICAgICAgICBcInN0YXR1c1wiOiBcIlBvcHVsYXJcIixcbiAgICAgICAgXCJ0eXBlXCI6IFwiR3Vlc3RcIixcbiAgICAgICAgXCJjYXRlZ29yeVwiOiBcIlN0YW5kYXJkIFJvb21cIixcbiAgICAgICAgXCJhaXJDb25kaXRpb25cIjogXCJsaW5lX3N0eWxlXCIsXG4gICAgICAgIFwiYnJlYWtmYXN0XCI6IFwiZnJlZV9icmVha2Zhc3RcIixcbiAgICAgICAgXCJ0aW1lXCI6IFwibmlnaHRcIixcbiAgICAgICAgXCJkZXNjcmlwdGlvblwiOiBcIkxvcmVtIGlwc3VtLCBkb2xvciBzaXQgYW1ldCBjb25zZWN0ZXR1ciBhZGlwaXNpY2luZyBlbGl0LiBTYXBpZW50ZSBxdWkgZXNzZSBwYXJpYXR1ciBmdWdpdCBhbmltaSBkb2xvcnVtLi4uXCIsXG4gICAgICAgIFwicHJpY2VcIjogXCIxNjAwLjBcIixcbiAgICAgICAgXCJjb3VudFwiOiBcIjNcIixcbiAgICAgICAgXCJmZWV0XCI6IFwiNTVcIixcbiAgICAgICAgXCJyb29tSW1hZ2VzXCI6IFtcbiAgICAgICAgICAgIFwiL2ltYWdlcy9Sb29tL2RlbW9fcm9vbV8wMy5qcGdcIixcbiAgICAgICAgICAgIFwiL2ltYWdlcy9Sb29tL3Jvb21fb25lXzAxLmpwZ1wiXG4gICAgICAgICAgICAsXG4gICAgICAgICAgICBcIi9pbWFnZXMvUm9vbS9yb29tX29uZV8wMi5qcGdcIixcbiAgICAgICAgICAgIFwiL2ltYWdlcy9Sb29tL3Jvb21fb25lXzAzLmpwZ1wiLFxuICAgICAgICAgICAgXCIvaW1hZ2VzL1Jvb20vcm9vbV9vbmVfMDQuanBnXCIsXG4gICAgICAgICAgICBcIi9pbWFnZXMvUm9vbS9yb29tX29uZV8wNS5qcGdcIixcbiAgICAgICAgICAgIFwiL2ltYWdlcy9Sb29tL3Jvb21fb25lXzA2LmpwZ1wiLFxuICAgICAgICAgICAgXCIvaW1hZ2VzL1Jvb20vcm9vbV9vbmVfMDcuanBnXCIsXG4gICAgICAgIF0sXG4gICAgfSxcbiAgICB7XG4gICAgICAgIFwiaWRcIjogMyxcbiAgICAgICAgXCJ0aXRsZVwiOiBcIk5hdHVyZSB2aWV3XCIsXG4gICAgICAgIFwiaW1nXCI6IFwiL2ltYWdlcy9Sb29tL2RlbW9fcm9vbV8wMi5qcGdcIixcbiAgICAgICAgXCJ0eXBlXCI6IFwiR3Vlc3RcIixcbiAgICAgICAgXCJ0aW1lXCI6IFwibmlnaHRcIixcbiAgICAgICAgXCJjYXRlZ29yeVwiOiBcIkVjb25vbWljIFJvb21cIixcbiAgICAgICAgXCJkZXNjcmlwdGlvblwiOiBcIkxvcmVtIGlwc3VtLCBkb2xvciBzaXQgYW1ldCBjb25zZWN0ZXR1ciBhZGlwaXNpY2luZyBlbGl0LiBTYXBpZW50ZSBxdWkgZXNzZSBwYXJpYXR1ciBmdWdpdCBhbmltaSBkb2xvcnVtLi4uXCIsXG4gICAgICAgIFwicHJpY2VcIjogXCIyMjAwLjBcIixcbiAgICAgICAgXCJjb3VudFwiOiBcIjRcIixcbiAgICAgICAgXCJmZWV0XCI6IFwiNTZcIixcbiAgICAgICAgXCJyb29tSW1hZ2VzXCI6IFtcbiAgICAgICAgICAgIFwiL2ltYWdlcy9Sb29tL2RlbW9fcm9vbV8wMi5qcGdcIixcbiAgICAgICAgICAgIFwiL2ltYWdlcy9Sb29tL3Jvb21fb25lXzAxLmpwZ1wiXG4gICAgICAgICAgICAsXG4gICAgICAgICAgICBcIi9pbWFnZXMvUm9vbS9yb29tX29uZV8wMi5qcGdcIixcbiAgICAgICAgICAgIFwiL2ltYWdlcy9Sb29tL3Jvb21fb25lXzAzLmpwZ1wiLFxuICAgICAgICAgICAgXCIvaW1hZ2VzL1Jvb20vcm9vbV9vbmVfMDQuanBnXCIsXG4gICAgICAgICAgICBcIi9pbWFnZXMvUm9vbS9yb29tX29uZV8wNS5qcGdcIixcbiAgICAgICAgICAgIFwiL2ltYWdlcy9Sb29tL3Jvb21fb25lXzA2LmpwZ1wiLFxuICAgICAgICAgICAgXCIvaW1hZ2VzL1Jvb20vcm9vbV9vbmVfMDcuanBnXCIsXG4gICAgICAgIF0sXG4gICAgfSxcbiAgICB7XG4gICAgICAgIFwiaWRcIjogNCxcbiAgICAgICAgXCJ0aXRsZVwiOiBcIlNlZSBWaWV3XCIsXG4gICAgICAgIFwiaW1nXCI6IFwiL2ltYWdlcy9Sb29tL2RlbW9fcm9vbV8wMS5qcGdcIixcbiAgICAgICAgXCJ0eXBlXCI6IFwiR3Vlc3RcIixcbiAgICAgICAgXCJ0aW1lXCI6IFwibmlnaHRcIixcbiAgICAgICAgXCJjYXRlZ29yeVwiOiBcIlN0YW5kYXJkIFJvb21cIixcbiAgICAgICAgXCJhaXJDb25kaXRpb25cIjogXCJsaW5lX3N0eWxlXCIsXG4gICAgICAgIFwiYnJlYWtmYXN0XCI6IFwiZnJlZV9icmVha2Zhc3RcIixcbiAgICAgICAgXCJzdGF0dXNcIjogXCJQb3B1bGFyXCIsXG4gICAgICAgIFwiZGVzY3JpcHRpb25cIjogXCJMb3JlbSBpcHN1bSwgZG9sb3Igc2l0IGFtZXQgY29uc2VjdGV0dXIgYWRpcGlzaWNpbmcgZWxpdC4gU2FwaWVudGUgcXVpIGVzc2UgcGFyaWF0dXIgZnVnaXQgYW5pbWkgZG9sb3J1bS4uLlwiLFxuICAgICAgICBcInByaWNlXCI6IFwiMzUwMC4wXCIsXG4gICAgICAgIFwiY291bnRcIjogXCIyXCIsXG4gICAgICAgIFwiZmVldFwiOiBcIjY2XCIsXG4gICAgICAgIFwicm9vbUltYWdlc1wiOiBbXG4gICAgICAgICAgICBcIi9pbWFnZXMvUm9vbS9kZW1vX3Jvb21fMDEuanBnXCIsXG4gICAgICAgICAgICBcIi9pbWFnZXMvUm9vbS9yb29tX29uZV8wMS5qcGdcIlxuICAgICAgICAgICAgLFxuICAgICAgICAgICAgXCIvaW1hZ2VzL1Jvb20vcm9vbV9vbmVfMDIuanBnXCIsXG4gICAgICAgICAgICBcIi9pbWFnZXMvUm9vbS9yb29tX29uZV8wMy5qcGdcIixcbiAgICAgICAgICAgIFwiL2ltYWdlcy9Sb29tL3Jvb21fb25lXzA0LmpwZ1wiLFxuICAgICAgICAgICAgXCIvaW1hZ2VzL1Jvb20vcm9vbV9vbmVfMDUuanBnXCIsXG4gICAgICAgICAgICBcIi9pbWFnZXMvUm9vbS9yb29tX29uZV8wNi5qcGdcIixcbiAgICAgICAgICAgIFwiL2ltYWdlcy9Sb29tL3Jvb21fb25lXzA3LmpwZ1wiLFxuICAgICAgICBdLFxuICAgIH1cbl1cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIGhhbmRsZXIocmVxLCByZXMpIHtcbiAgICByZXMuc3RhdHVzKDIwMCkuanNvbihkYXRhKVxufSJdLCJuYW1lcyI6WyJkYXRhIiwiaGFuZGxlciIsInJlcSIsInJlcyIsInN0YXR1cyIsImpzb24iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(api)/./pages/api/roomData.js\n");
 
 /***/ })
 
@@ -197,7 +30,7 @@ function handler(req, res) {
 var __webpack_require__ = require("../../webpack-api-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(4000));
+var __webpack_exports__ = (__webpack_exec__("(api)/./pages/api/roomData.js"));
 module.exports = __webpack_exports__;
 
 })();

@@ -14,7 +14,7 @@ const Blogs = ({ blogs }) => {
 
 export default Blogs;
 export async function getStaticProps() {
-  const res = await fetch('http://localhost:3000/api/blogData', {
+  const res = await fetch('/api/blogData', {
     accept: 'application/json',
   });
 

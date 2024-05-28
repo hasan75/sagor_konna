@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export",
+    "deploy": "npm run build && npm run export"
   },
   "dependencies": {
     "@fancyapps/ui": "^4.0.31",
@@ -24,6 +26,6 @@
     "swiper": "^8.4.2"
   },
   "devDependencies": {
-
+    "@netlify/plugin-nextjs": "^5.3.2"
   }
 }

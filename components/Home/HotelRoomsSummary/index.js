@@ -38,7 +38,7 @@ const HotelRoomsSummary = () => {
   const [skrRooms, setskrRooms] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:3000/api/roomData')
+    fetch('/api/roomData')
       .then((res) => res.json())
       .then((data) => setskrRooms(data));
   }, []);

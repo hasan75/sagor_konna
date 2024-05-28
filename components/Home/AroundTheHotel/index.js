@@ -40,7 +40,7 @@ const AroundTheHotel = () => {
   const [skrServices, setskrService] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:3000/api/serviceData')
+    fetch('/api/serviceData')
       .then((res) => res.json())
       .then((data) => setskrService(data));
   }, []);

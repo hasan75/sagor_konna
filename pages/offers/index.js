@@ -19,7 +19,7 @@ const Offers = ({ offer }) => {
 export default Offers;
 
 export async function getStaticProps() {
-  const res = await fetch('http://localhost:3000/api/offer');
+  const res = await fetch('/api/offer');
   const offer = await res.json();
 
   return {

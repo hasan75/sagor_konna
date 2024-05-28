@@ -12,7 +12,7 @@ export async function getStaticProps() {
   // const url = process.env.API_URL;
   // const roomdata = await import('./api/roomData.json');
   // return { props: { roomdata: roomdata.default } };
-  const res = await fetch('http://localhost:3000/api/roomData', {
+  const res = await fetch('/api/roomData', {
     accept: 'application/json',
   });
   if (!res.ok) {

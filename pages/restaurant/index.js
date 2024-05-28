@@ -40,7 +40,7 @@ const Restaurant = ({ menuLists }) => {
 export default Restaurant;
 
 export async function getStaticProps() {
-  const res = await fetch('http://localhost:3000/api/menuListData', {
+  const res = await fetch('/api/menuListData', {
     accept: 'application/json',
   });
   // console.log(res);
