@@ -2,5 +2,10 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/restaurant": "pages/restaurant.js"
+  "/gallery": "pages/gallery.js",
+  "/offers": "pages/offers.js",
+  "/room": "pages/room.js",
+  "/membership": "pages/membership.js",
+  "/blogs": "pages/blogs.js",
+  "/blogs/[blogId]": "pages/blogs/[blogId].js"
 }
